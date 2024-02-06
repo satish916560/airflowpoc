@@ -33,14 +33,8 @@ Resources:
         SubnetIds: 
           - subnet-01166abeafa4be6dd
           - subnet-0ea5e635e30b743e6
-      SourceBucketArn: "arn:aws:s3:::wmaapoc"
+      SourceBucketArn: "arn:aws:s3:::dags-poc"
       WebserverAccessMode: PUBLIC_ONLY
      # KmsKey: "arn:aws:kms:us-east-1:753920291680:key/698be251-5a5a-4885-a9ff-d6e7cc59dd14"
       Tags: 
         env: dev
-        technology: mwaa
-        domain: dao
-        Name: wmaadevenv
-        uai: UAI3026014
-        app: mwaa
-        category: data	
